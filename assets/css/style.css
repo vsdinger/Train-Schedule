@@ -1,6 +1,11 @@
 .container{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: url("../images/Train.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 body {
@@ -9,4 +14,22 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    }
+
+
+    .jumbotron {
+        background-color: black;
+            color: white;
+    }
+    
+    
+    .panel-heading {
+        background-color: blue;
+    }
+    
+    .panel > .panel-heading {
+        background-image: none;
+        background-color: #ddd;
+        color: black;
+    
     }
